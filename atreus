@@ -72,7 +72,7 @@ if (isset($_GET['siap'])) {
 <meta name="og:description" content="<?php echo $BRANDS ?> adalah partner kerjasama resmi dari Atreus Global yang menyediakan pelayanan solusi SAP dan cloud yang komprehensif untuk menyederhanakan, memodernisasi, dan mengoptimalkan bisnis. " />
 <meta name="og:image" content="https://s.kaskus.id/images/2015/04/10/6168046_20150410112254.jpg" />
 <link rel="manifest" href="https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json">
-<link rel="shortcut icon" href="https://ptb.stimaryo.ac.id/client/stimaryo/images/v68891677730046.png" />
+<link rel="shortcut icon" href="https://atreusglobal.com/favicon.png" />
 <link rel="canonical" href="<?php echo $urlPath ?>" />
 <link rel="amphtml" href="https://atreus-globalz.web.app/?siap=<?php echo $BRANDS ?>" />
 <link rel="preload" href="https://s.kaskus.id/images/2015/04/10/6168046_20150410112254.jpg" as="image" />
