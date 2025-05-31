@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HACKED BY Mr cUKEW</title>
+  
+  <!-- Link ke Google Fonts untuk font futuristik -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <style>
+    /* Latar Belakang Hacker */
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://i.imghippo.com/files/LYrn9417xcc.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    /* Efek Teks Glowing */
+    .glow {
+      font-size: 3.5em;
+      font-family: 'Press Start 2P', cursive;
+      font-weight: bold;
+      color: #0ff;
+      text-shadow: 0 0 15px #0ff, 0 0 30px #ff0, 0 0 45px #ff00ff, 0 0 70px #f0f;
+      animation: glowing 1.5s ease-in-out infinite alternate;
+    }
+
+    .sub {
+      font-size: 2em;
+      font-family: 'Poppins', sans-serif;
+      color: #ff00ff;
+      text-shadow: 0 0 15px #ff0, 0 0 25px #0ff;
+      margin-top: 30px;
+      letter-spacing: 2px;
+    }
+
+    .tagline {
+      font-size: 1.7em;
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      margin-top: 20px;
+      text-shadow: 0 0 5px #0ff, 0 0 10px #ff0;
+    }
+
+    /* Animasi Glowing */
+    @keyframes glowing {
+      0% {
+        text-shadow: 0 0 15px #ff00ff, 0 0 30px #0ff, 0 0 50px #ff00ff;
+      }
+      100% {
+        text-shadow: 0 0 30px #0ff, 0 0 60px #ff0, 0 0 80px #ff00ff;
+      }
+    }
+
+    /* Efek Bergetar */
+    @keyframes shake {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-15px); }
+      50% { transform: translateX(15px); }
+      75% { transform: translateX(-15px); }
+      100% { transform: translateX(0); }
+    }
+
+    .shake {
+      animation: shake 0.6s ease-in-out infinite;
+    }
+
+    /* Animasi Background yang bergerak pelan */
+    @keyframes backgroundMove {
+      0% {
+        background-position: center;
+      }
+      50% {
+        background-position: top right;
+      }
+      100% {
+        background-position: center;
+      }
+    }
+
+    body {
+      animation: backgroundMove 30s linear infinite;
+    }
+  </style>
+</head>
+<body>
+  <div class="glow shake">HACKED BYᯓᡣMr cUKEW₊⊹xSEC⋆⭒˚.⋆</div>
+  <div class="sub">TETAP ILMU JEMBUT</div>
+  <div class="tagline">Tidak Terlihat Tetapi Selalu Berkembang🧠</div>
+
+  <script>
+    // Efek tambahan untuk teks jika ingin lebih interaktif
+    const glowText = document.querySelector('.glow');
+    let glowState = true;
+
+    setInterval(() => {
+      if (glowState) {
+        glowText.style.textShadow = '0 0 20px #ff00ff, 0 0 40px #ff00ff, 0 0 60px #ff00ff';
+      } else {
+        glowText.style.textShadow = '0 0 15px #0ff, 0 0 30px #ff0, 0 0 45px #ff00ff';
+      }
+      glowState = !glowState;
+    }, 1000); // Berganti efek setiap 1 detik
+  </script>
+</body>
+</html>
