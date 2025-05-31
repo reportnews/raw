@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>HACKED BY Mr cUKEW</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #0f0;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            padding-top: 10%;
+            animation: glitch 1s infinite;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #0ff;
+            text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-top: 30px;
+            color: #f00;
+            text-shadow: 0 0 5px #f00, 0 0 10px #f00;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #fff;
+        }
+
+        @keyframes glitch {
+            0% {text-shadow: 2px 0 red;}
+            20% {text-shadow: -2px 0 blue;}
+            40% {text-shadow: 2px 0 green;}
+            60% {text-shadow: -2px 0 yellow;}
+            80% {text-shadow: 2px 0 purple;}
+            100% {text-shadow: -2px 0 cyan;}
+        }
+    </style>
+</head>
+<body>
+    <h1>HACKED BYᯓᡣMr cUKEW₊⊹xSEC⋆⭒˚.⋆</h1>
+    <h2>TETAP ILMU JEMBUT</h2>
+    <p>Tidak Terlihat Tetapi Selalu Berkembang</p>
+</body>
+</html>
